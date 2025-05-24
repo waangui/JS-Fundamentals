@@ -4,9 +4,12 @@ const lang = ["C is fun", "Python is cool", "JavaScript it amazing"];
 //     console.log(lang[i]);
 // }
 
-let i= 0;
+// let i= 0;
 
-while(i< lang.length){
-    console.log(lang[i]);
-    i++;
-}
+// while(i< lang.length){
+//     console.log(lang[i]);
+//     i++;
+// }
+
+
+for (let i = 0; i < lang.length; i++) console.log(lang[i]);
